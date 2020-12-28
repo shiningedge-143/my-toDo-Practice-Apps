@@ -1,0 +1,122 @@
+
+#header {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    opacity: 80%;
+    animation: both;
+    transition: 5s;
+ 
+}
+
+
+
+body{
+    background-image: url(mypic.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#container {
+    display: flex;
+    align-content: center;
+    background-color: #428fbb;
+    width: 400px;
+    justify-content: center;
+    border-radius: 5px;
+  
+
+
+}
+
+
+#addButton {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     margin-left: 10px;
+     border-radius: 4px;
+     cursor: pointer;
+     height: 35px;
+     background: #1da701;
+     color: black;
+     font-size: 20px;
+}
+
+#toDoInput {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#toDoContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 10px;
+  height: 100px;
+}
+.text {
+   margin: auto;
+}
+
+.option {
+    margin-right: -115px;
+    transition: margin-right 0.3 ease;
+    background-color: yellow;
+    
+    
+}
+
+#toDos {
+
+display: flex;
+background-color: burlywood;
+
+overflow: hidden;
+
+}
+#toDos:hover .option {
+    margin-right: 0;
+
+}
+
+#toDos .option span {
+height: 40px;
+align-items: center;
+line-height: 40px;
+justify-content: center;
+width: 30px;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+
+
+}
+
+#toDos .option span:hover:nth-child(1) {
+   background-color: aquamarine;
+}
+
+#toDos .option span:hover:nth-child(2) {
+    background-color: rgb(127, 140, 255);
+ }
+
+ #toDos .option span:hover:nth-child(3) {
+    background-color: crimson;
+ }
